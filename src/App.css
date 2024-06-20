@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  overflow: hidden;
+  height: 100vh;
+  width: 100%;
+  background-color: #fff;
+  color: black;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 70%;
+  margin: 4rem auto;
+}
+
+.temp {
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+.secon {
+  font-size: 1.4rem;
+}
+
+.w-board {
+  width: 800px;
+  padding: 1rem;
+  margin: 5rem;
+}
+
+.temp-weather {
+  display: flex;
+  padding: 2rem;
+  width: 700px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.middle-div {
+  display: flex;
+    padding: 2rem;
+  width: 700px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.bottum{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottum input, button{
+  font-size: 24px;
+  padding: 10px;
+  margin: 0.3rem;
+  width: 60%;
+}
+
+.bottum button{
+  background-color: black;
+  color: white;
+  border-radius: 6px;
+}
